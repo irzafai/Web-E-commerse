@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>RAF CART</title>
+    <link href="./css/output.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+</head>
+       <body class="font-roboto">
+         <!-- Header -->
+  <header class="bg-white shadow">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+     <div class="flex items-center space-x-4">
+      <h1 class="text-2xl font-bold text-red-600">
+       RAF CART
+      </h1>
+      <div class="relative">
+       <input class="border rounded-full py-2 px-4 pl-10 w-64" placeholder="search" type="text"/>
+       <i class="fas fa-search absolute left-3 top-3 text-gray-400">
+       </i>
+      </div>
+     </div>
+     <div class="flex items-center space-x-4">
+      <a class="text-gray-600" href="#">
+       <i class="fas fa-heart">
+       </i>
+       Wish List
+      </a>
+      <a class="text-gray-600" href="#">
+       <i class="fas fa-shopping-cart">
+       </i>
+       Cart
+      </a>
+      <a class="text-gray-600" href="#">
+       <i class="fas fa-user">
+       </i>
+       Account
+      </a>
+     </div>
+    </div>
+   </header>
+           </div>
+          </div>
+         </div>
+         <nav class="bg-gray-800">
+          <div class="container mx-auto flex justify-between items-center py-2 px-6">
+           <div class="flex items-center space-x-4">
+            <button class="bg-red-500 text-white px-4 py-2 flex items-center">
+             <i class="fas fa-bars mr-2">
+             </i>
+             All Categories
+            </button>
+            <a class="text-white" href="#">
+             Home
+            </a>
+            <a class="text-white" href="#">
+             Shop
+            </a>
+            <a class="text-white" href="#">
+             About Us
+            </a>
+            <a class="text-white" href="#">
+             Contact Us
+            </a>
+           </div>
+           <a class="text-white" href="#">
+            Login/Register
+           </a>
+          </div>
+         </nav>
+        </header>
+   <div class="container mx-auto px-4 py-8 flex">
+    <!-- Sidebar -->
+    <aside class="w-1/4">
+     <div class="bg-white p-4 rounded shadow">
+      <h2 class="font-bold mb-4">
+       CATEGORIES
+      </h2>
+      <ul class="space-y-2">
+       <li>
+        <input id="bedroom" type="checkbox"/>
+        <label class="ml-2" for="bedroom">
+         Bedroom (15)
+        </label>
+       </li>
+       <li>
+        <input id="sofa" type="checkbox"/>
+        <label class="ml-2" for="sofa">
+         Sofa (09)
+        </label>
+       </li>
+       <li>
+        <input id="office" type="checkbox"/>
+        <label class="ml-2" for="office">
+         Office (05)
+        </label>
+       </li>
+       <li>
+        <input id="outdoor" type="checkbox"/>
+        <label class="ml-2" for="outdoor">
+         Outdoor (19)
+        </label>
+       </li>
+      </ul>
+     </div>
+     <div class="bg-white p-4 rounded shadow mt-4">
+      <h2 class="font-bold mb-4">
+       BRANDS
+      </h2>
+      <ul class="space-y-2">
+       <li>
+        <input id="dominik" type="checkbox"/>
+        <label class="ml-2" for="dominik">
+         Dominik (15)
+        </label>
+       </li>
+       <li>
+        <input id="karl" type="checkbox"/>
+        <label class="ml-2" for="karl">
+         Karl (18)
+        </label>
+       </li>
+       <li>
+        <input id="maxing" type="checkbox"/>
+        <label class="ml-2" for="maxing">
+         Maxing (09)
+        </label>
+       </li>
+       <li>
+        <input id="ernest" type="checkbox"/>
+        <label class="ml-2" for="ernest">
+         Ernest (12)
+        </label>
+       </li>
+      </ul>
+     </div>
+     <div class="bg-white p-4 rounded shadow mt-4">
+      <h2 class="font-bold mb-4">
+       PRICE
+      </h2>
+      <div class="flex space-x-2">
+       <input class="border rounded w-1/2 py-1 px-2" placeholder="min" type="text"/>
+       <input class="border rounded w-1/2 py-1 px-2" placeholder="max" type="text"/>
+      </div>
+     </div>
+     <div class="bg-white p-4 rounded shadow mt-4">
+      <h2 class="font-bold mb-4">
+       SIZE
+      </h2>
+      <div class="flex space-x-2">
+       <button class="border rounded px-4 py-1">
+        XS
+       </button>
+       <button class="border rounded px-4 py-1 bg-red-600 text-white">
+        S
+       </button>
+       <button class="border rounded px-4 py-1">
+        M
+       </button>
+       <button class="border rounded px-4 py-1">
+        L
+       </button>
+      </div>
+     </div>
+     <div class="bg-white p-4 rounded shadow mt-4">
+      <h2 class="font-bold mb-4">
+       COLOR
+      </h2>
+      <div class="flex space-x-2">
+       <button class="border rounded-full w-6 h-6 bg-black">
+       </button>
+       <button class="border rounded-full w-6 h-6 bg-red-600">
+       </button>
+       <button class="border rounded-full w-6 h-6 bg-blue-600">
+       </button>
+      </div>
+     </div>
+    </aside>
+    <!-- Products -->
+    <main class="w-3/4 ml-4">
+     <div class="flex justify-between items-center mb-4">
+      <div class="flex items-center space-x-2">
+       <i class="fas fa-home text-gray-400">
+       </i>
+       <span class="text-gray-400">
+        / Shop
+       </span>
+      </div>
+      <select class="border rounded py-2 px-4">
+       <option>
+        Default sorting
+       </option>
+      </select>
+     </div>
+     <div class="grid grid-cols-3 gap-4">
+      <!-- Product Card -->
+      <div class="bg-white p-4 rounded shadow">
+       <img alt="Image of a bed" class="w-full h-40 object-cover mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/RiO3Ni97ACJXHhWv6dWBoXhoNatmBCsOeiJ4MTvsAjeeYegQB.jpg" width="200"/>
+       <h3 class="font-bold">
+        GUYER CHAIR
+       </h3>
+       <div class="flex items-center space-x-2">
+        <span class="text-red-600 font-bold">
+         $45.00
+        </span>
+        <span class="line-through text-gray-400">
+         $65.00
+        </span>
+       </div>
+       <div class="flex items-center space-x-1 text-yellow-500">
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <span class="text-gray-400">
+         (150)
+        </span>
+       </div>
+       <button class="bg-red-600 text-white w-full py-2 mt-4 rounded">
+        Add to Cart
+       </button>
+      </div>
+      <!-- Repeat Product Card for other products -->
+      <div class="bg-white p-4 rounded shadow">
+       <img alt="Image of a pink chair" class="w-full h-40 object-cover mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/oIAHgFy4KtpiGNm9a05Rx2LhBRPZ5olQIdmXjggHArTIzDCF.jpg" width="200"/>
+       <h3 class="font-bold">
+        GUYER CHAIR
+       </h3>
+       <div class="flex items-center space-x-2">
+        <span class="text-red-600 font-bold">
+         $45.00
+        </span>
+        <span class="line-through text-gray-400">
+         $65.00
+        </span>
+       </div>
+       <div class="flex items-center space-x-1 text-yellow-500">
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <span class="text-gray-400">
+         (150)
+        </span>
+       </div>
+       <button class="bg-red-600 text-white w-full py-2 mt-4 rounded">
+        Add to Cart
+       </button>
+      </div>
+      <div class="bg-white p-4 rounded shadow">
+       <img alt="Image of a gray sofa" class="w-full h-40 object-cover mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/WEhWk57c7r7wGlrl48MTJJ8MTSjDJt6DU0qdDKleoG5PmHEKA.jpg" width="200"/>
+       <h3 class="font-bold">
+        GUYER CHAIR
+       </h3>
+       <div class="flex items-center space-x-2">
+        <span class="text-red-600 font-bold">
+         $45.00
+        </span>
+        <span class="line-through text-gray-400">
+         $65.00
+        </span>
+       </div>
+       <div class="flex items-center space-x-1 text-yellow-500">
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <span class="text-gray-400">
+         (150)
+        </span>
+       </div>
+       <button class="bg-red-600 text-white w-full py-2 mt-4 rounded">
+        Add to Cart
+       </button>
+      </div>
+      <div class="bg-white p-4 rounded shadow">
+       <img alt="Image of a beige chair" class="w-full h-40 object-cover mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/lfHwBT3PB0Te6UyoeYyQee1AzZf248JyJEaqYeubP3HHOmHEKA.jpg" width="200"/>
+       <h3 class="font-bold">
+        GUYER CHAIR
+       </h3>
+       <div class="flex items-center space-x-2">
+        <span class="text-red-600 font-bold">
+         $45.00
+        </span>
+        <span class="line-through text-gray-400">
+         $65.00
+        </span>
+       </div>
+       <div class="flex items-center space-x-1 text-yellow-500">
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <span class="text-gray-400">
+         (150)
+        </span>
+       </div>
+       <button class="bg-red-600 text-white w-full py-2 mt-4 rounded">
+        Add to Cart
+       </button>
+      </div>
+      <div class="bg-white p-4 rounded shadow">
+       <img alt="Image of a blue chair" class="w-full h-40 object-cover mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/5DsQm6tAjRJeJK33E051tEUzgvnp5ZRmJaTIrjgD1aJQmHEKA.jpg" width="200"/>
+       <h3 class="font-bold">
+        GUYER CHAIR
+       </h3>
+       <div class="flex items-center space-x-2">
+        <span class="text-red-600 font-bold">
+         $45.00
+        </span>
+        <span class="line-through text-gray-400">
+         $65.00
+        </span>
+       </div>
+       <div class="flex items-center space-x-1 text-yellow-500">
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <span class="text-gray-400">
+         (150)
+        </span>
+       </div>
+       <button class="bg-red-600 text-white w-full py-2 mt-4 rounded">
+        Add to Cart
+       </button>
+      </div>
+      <div class="bg-white p-4 rounded shadow">
+       <img alt="Image of a bed with black headboard" class="w-full h-40 object-cover mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/72I3udLemUTyTqeBvlAfSYIKSftDqeB6000i6VOBodqRj5BhC.jpg" width="200"/>
+       <h3 class="font-bold">
+        GUYER CHAIR
+       </h3>
+       <div class="flex items-center space-x-2">
+        <span class="text-red-600 font-bold">
+         $45.00
+        </span>
+        <span class="line-through text-gray-400">
+         $65.00
+        </span>
+       </div>
+       <div class="flex items-center space-x-1 text-yellow-500">
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <i class="fas fa-star">
+        </i>
+        <span class="text-gray-400">
+         (150)
+        </span>
+       </div>
+       <button class="bg-red-600 text-white w-full py-2 mt-4 rounded">
+        Add to Cart
+       </button>
+      </div>
+     </div>
+    </main>
+    
+   </div>

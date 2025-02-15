@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Mynime | Tempat belanja keperluan wibu </title>
+    <link href="./css/output.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+       <body class="font-roboto">
+       </head>
+ <body class="bg-blue-300">  
+  <!-- Header -->
+<header class="bg-blue-400 p-4 shadow-md">
+  <div class="container mx-auto flex items-center justify-between">
+    
+    <!-- Logo -->
+    <a href="#" class="flex items-center">
+      <!-- <img src="img/Mynime.png" alt="Logo" class="h-auto max-h-16 w-auto"> -->
+    </a>
+
+    <!-- Search Box -->
+    <div class="relative w-full md:w-1/3">
+      <input type="text" class="w-full py-2 px-4 rounded-full border-none focus:ring-2 focus:ring-orange-400" placeholder="Khilaaf apa hari ini?">
+      <button class="absolute right-3 top-2 text-gray-500">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l5 5m-5-5A7 7 0 1 0 3 3a7 7 0 0 0 12 12z"></path>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Icons Menu -->
+    <nav class="flex space-x-6">
+      <a href="#" class="text-white hover:text-gray-300">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+          </svg>          
+      </a>
+      <a href="#" class="text-white hover:text-gray-300">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+          </svg>          
+      </a>
+      <a href="#" class="text-white hover:text-gray-300"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+      </svg>
+      
+      </a>
+    </nav>
+
+  </div>
+</header>
+
+  <!-- Navigation -->
+ 
+  <!-- Hero Section -->
+  <!-- Tambahkan Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+<section class="bg-gray-100 py-20 min-h-screen relative">
+    <!-- Background dengan overlay -->
+    <img src="/public/img/event2.jpg" class="absolute inset-0 w-full h-full object-cover opacity-20" alt="Background Image">
+    <div class="absolute inset-0 bg-blue-900 opacity-45"></div>
+
+    <!-- Konten -->
+    <div class="relative container mx-auto px-4 flex flex-col md:flex-row items-center">
+        <div class="md:w-1/2">
+            <h2 class="text-4xl font-bold text-white mb-4">
+                Belanja barang wibu disini!
+            </h2>
+            <p class="text-gray-200 mb-6">
+                Belanja barang yang 100% original dari jepang pasti di mynime dong
+            </p>
+            <button class="bg-blue-400 hover:bg-blue-500 transition text-white py-3 px-6 rounded-full">
+                Aku mau beli
+            </button>
+        </div>
+
+        <!-- Slider Gambar -->
+        <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center">
+            <div class="swiper w-full max-w-md h-96 rounded-lg overflow-hidden shadow-lg">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide flex items-center justify-center">
+                        <img src="/public/img/cosplay.jpg" class="w-full h-full object-cover rounded-lg">
+                    </div>
+                    <div class="swiper-slide flex items-center justify-center">
+                        <img src="/public/img/ganci2.jpg" class="w-full h-full object-cover rounded-lg">
+                    </div>
+                    <div class="swiper-slide flex items-center justify-center">
+                        <img src="/public/img/Nakano.jpg" class="w-full h-full object-cover rounded-lg">
+                    </div>
+                </div>
+                <!-- Navigasi -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Tambahkan Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".swiper", {
+        loop: true,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+</script>
+<!-- Today event -->
+<!-- Tambahkan link CSS SwiperJS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<!-- Container untuk Swiper -->
+<div class="container flex justify-between mx-auto px-4 py-8">
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      
+      <!-- Slide 1 -->
+      <div class="swiper-slide bg-white shadow-md rounded-lg overflow-hidden flex flex-col md:flex-row items-center">
+        <div class="p-8 md:w-1/2">
+          <h2 class="text-4xl font-bold text-red-500">15% OFF</h2>
+          <p class="text-gray-700 mt-2">ACCENT CHAIRS, BENCHES & OTTOMANS</p>
+          <button class="mt-4 bg-red-500 text-white py-2 px-4 rounded-lg">Shop Now</button>
+        </div>
+        <div class="md:w-1/2">
+          <img alt="Living room with accent chair" class="w-full h-full object-cover" height="400" 
+          src="https://storage.googleapis.com/a1aa/image/cNXUrDcc9YZSD1ZueEWusUdL8eDWCpBXfhDoeSVh8ITkr7gQB.jpg" width="600"/>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="swiper-slide bg-white shadow-md rounded-lg overflow-hidden flex flex-col md:flex-row items-center">
+        <div class="p-8 md:w-1/2">
+          <h2 class="text-4xl font-bold text-blue-500">20% OFF</h2>
+          <p class="text-gray-700 mt-2">MODERN SOFAS & LOUNGES</p>
+          <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded-lg">Shop Now</button>
+        </div>
+        <div class="md:w-1/2">
+          <img alt="Modern Sofa" class="w-full h-full object-cover" height="400" 
+          src="https://storage.googleapis.com/a1aa/image/sample-sofa.jpg" width="600"/>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="swiper-slide bg-white shadow-md rounded-lg overflow-hidden flex flex-col md:flex-row items-center">
+        <div class="p-8 md:w-1/2">
+          <h2 class="text-4xl font-bold text-green-500">30% OFF</h2>
+          <p class="text-gray-700 mt-2">LUXURY BEDS & BED FRAMES</p>
+          <button class="mt-4 bg-green-500 text-white py-2 px-4 rounded-lg">Shop Now</button>
+        </div>
+        <div class="md:w-1/2">
+          <img alt="Luxury Bed" class="w-full h-full object-cover" height="400" 
+          src="https://storage.googleapis.com/a1aa/image/sample-bed.jpg" width="600"/>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Navigasi -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+
+    <!-- Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+
+<!-- Tambahkan script SwiperJS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+</script>
+
+ <!-- Swiper -->
+  
+  <!-- Shop by Category Section -->
+ 
+         <!-- <section class="bg-white py-16">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center ">
+                Kenapa harus di mynime?
+               </h2>
+          <div class="container mx-auto px-6">
+           <div class="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0 md:space-x-6">
+            <div class="flex items-center space-x-4 border border-gray-300 p-4 rounded-lg">
+                
+             <i class="fas fa-truck text-blue-400 text-2xl">
+             </i>
+             <div>
+              <h3 class="text-lg font-bold">
+               Asli jepang
+              </h3>
+              <p class="text-gray-600">
+              barang 100% Ori
+              </p>
+             </div>
+            </div>
+            <div class="flex items-center space-x-4 border border-gray-300 p-4 rounded-lg">
+             <i class="fas fa-undo text-blue-400 text-2xl">
+             </i>
+             <div>
+              <h3 class="text-lg font-bold">
+               Uang kembali
+              </h3>
+              <p class="text-gray-600">
+              Jika barang rusak
+              </p>
+             </div>
+            </div>
+            <div class="flex items-center space-x-4 border border-gray-300 p-4 rounded-lg">
+             <i class="fas fa-headset text-blue-400 text-2xl">
+             </i>
+             <div>
+              <h3 class="text-lg font-bold">
+               Fast respon
+              </h3>
+              <p class="text-gray-600">
+               Kami aktif 24 jam
+              </p>
+             </div>
+            </div>
+           </div>
+          </div> -->
+         </section>
+         <section class="bg-gray-100 py-16 flex items-center">
+          <div class="container mx-auto px-6 ">
+           <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center ">
+            Mau beli apa nih?
+           </h2>
+           <!-- Add category items here -->
+          </div>
+         </section>
+        </main>
+        <!-- Pemisah aja -->
+        
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+             <div class="relative">
+              <img alt="Bedroom category image" class="w-full h-full object-cover" height="400" src="/public/img/Actionfigure.jpg" width="600"/>
+              <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+               <p class="text-white text-lg font-semibold">
+               Action figure
+               </p>
+              </div>
+             </div>
+             <div class="relative">
+              <img alt="Sofa category image" class="w-full h-full object-cover" height="400" src="/public/img/manga.jpg" width="600"/>
+              <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+               <p class="text-white text-lg font-semibold">
+                Manga
+               </p>
+              </div>
+             </div>
+             <div class="relative">
+              <img alt="Office category image" class="w-full h-full object-cover" height="400" src="/public/img/nendoroid.jpg" width="600"/>
+              <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+               <p class="text-white text-lg font-semibold">
+                Nendoroid
+               </p>
+              </div>
+             </div>
+             <div class="relative">
+              <img alt="Outdoor category image" class="w-full h-full object-cover" height="400" src="/public/img/Ganci.jpg" width="600"/>
+              <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+               <p class="text-white text-lg font-semibold">
+                Gantungan kunci
+               </p>
+              </div>
+             </div>
+             <div class="relative">
+              <img alt="Mattress category image" class="w-full h-full object-cover" height="400" src="/public/img/kaos.jpg" width="600"/>
+              <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+               <p class="text-white text-lg font-semibold">
+                T-shirt 
+               </p>
+              </div>
+             </div>
+             <div class="relative">
+              <img alt="Dinings category image" class="w-full h-full object-cover" height="400" src="/public/img/cosplay.jpg" width="600"/>
+              <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+               <p class="text-white text-lg font-semibold">
+                Perlengkapan cosplay
+               </p>
+              </div>
+             </div>
+            </div>
+           </div>
+           <!-- Top New Arrival -->
+           <div class="container mx-auto py-8">
+            <h2 class="text-2xl font-bold mb-6 text-center">
+             Barang langsung dari jepang!
+            </h2>
+            <!-- Add content for Top New Arrival section here -->
+           </div>
+
+           <!-- Pemisah lagi -->
+<!-- Product Section -->
+<!-- Tambahkan SwiperJS di dalam <head> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <div class="container mx-auto px-4 py-8">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <!-- Product Card -->
+          <div class="swiper-slide bg-white shadow-md rounded-lg overflow-hidden min-w-[250px]">
+            <img alt="Pink chair" class="w-full h-48 object-cover" src="https://storage.googleapis.com/a1aa/image/l8bgXQfx7PxxUSH4XhqD7bK7Q9CHGBppdsepAmn4fceYr7gQB.jpg" />
+            <div class="p-4">
+              <h3 class="text-lg font-semibold">Nakano Miku Figure</h3>
+              <div class="flex items-center mt-2">
+                <span class="text-blue-500 text-xl font-bold">Rp550.000</span>
+              </div>
+              <button class="mt-4 w-full bg-blue-400 text-white py-2 rounded-lg">Masuk Keranjang</button>
+            </div>
+          </div>
+          <!-- Tambahkan Card lainnya -->
+          <div class="swiper-slide bg-white shadow-md rounded-lg overflow-hidden min-w-[250px]">
+            <img alt="Gray sofa" class="w-full h-48 object-cover" src="https://storage.googleapis.com/a1aa/image/JDRWjCx7asbeZCiLJ42lReTx4FpAFWT7MGBQLH07zfZp1dQoA.jpg" />
+            <div class="p-4">
+              <h3 class="text-lg font-semibold">Re: Zero Vol. 1-End</h3>
+              <div class="flex items-center mt-2">
+                <span class="text-blue-500 text-xl font-bold">Rp250.000</span>
+              </div>
+              <button class="mt-4 w-full bg-blue-400 text-white py-2 rounded-lg">Add to Cart</button>
+            </div>
+          </div>
+          <!-- Tambahkan lebih banyak item sesuai kebutuhan -->
+          <div class="swiper-slide bg-white shadow-md rounded-lg overflow-hidden min-w-[250px]">
+            <img alt="Gray sofa" class="w-full h-48 object-cover" src="https://storage.googleapis.com/a1aa/image/JDRWjCx7asbeZCiLJ42lReTx4FpAFWT7MGBQLH07zfZp1dQoA.jpg" />
+            <div class="p-4">
+              <h3 class="text-lg font-semibold">Re: Zero Vol. 1-End</h3>
+              <div class="flex items-center mt-2">
+                <span class="text-blue-500 text-xl font-bold">Rp250.000</span>
+              </div>
+              <button class="mt-4 w-full bg-blue-400 text-white py-2 rounded-lg">Add to Cart</button>
+            </div>
+          </div>
+          <div class="swiper-slide bg-white shadow-md rounded-lg overflow-hidden min-w-[250px]">
+            <img alt="Gray sofa" class="w-full h-48 object-cover" src="https://storage.googleapis.com/a1aa/image/JDRWjCx7asbeZCiLJ42lReTx4FpAFWT7MGBQLH07zfZp1dQoA.jpg" />
+            <div class="p-4">
+              <h3 class="text-lg font-semibold">Re: Zero Vol. 1-End</h3>
+              <div class="flex items-center mt-2">
+                <span class="text-blue-500 text-xl font-bold">Rp250.000</span>
+              </div>
+              <button class="mt-4 w-full bg-blue-400 text-white py-2 rounded-lg">Add to Cart</button>
+            </div>
+          </div>
+          <div class="swiper-slide bg-white shadow-md rounded-lg overflow-hidden min-w-[250px]">
+            <img alt="Gray sofa" class="w-full h-48 object-cover" src="https://storage.googleapis.com/a1aa/image/JDRWjCx7asbeZCiLJ42lReTx4FpAFWT7MGBQLH07zfZp1dQoA.jpg" />
+            <div class="p-4">
+              <h3 class="text-lg font-semibold">Re: Zero Vol. 1-End</h3>
+              <div class="flex items-center mt-2">
+                <span class="text-blue-500 text-xl font-bold">Rp250.000</span>
+              </div>
+              <button class="mt-4 w-full bg-blue-400 text-white py-2 rounded-lg">Add to Cart</button>
+            </div>
+          </div>
+          <div class="swiper-slide bg-white shadow-md rounded-lg overflow-hidden min-w-[250px]">
+            <img alt="Gray sofa" class="w-full h-48 object-cover" src="https://storage.googleapis.com/a1aa/image/JDRWjCx7asbeZCiLJ42lReTx4FpAFWT7MGBQLH07zfZp1dQoA.jpg" />
+            <div class="p-4">
+              <h3 class="text-lg font-semibold">Re: Zero Vol. 1-End</h3>
+              <div class="flex items-center mt-2">
+                <span class="text-blue-500 text-xl font-bold">Rp250.000</span>
+              </div>
+              <button class="mt-4 w-full bg-blue-400 text-white py-2 rounded-lg">Add to Cart</button>
+            </div>
+          </div>
+          <div class="swiper-slide bg-white shadow-md rounded-lg overflow-hidden min-w-[250px]">
+            <img alt="Gray sofa" class="w-full h-48 object-cover" src="https://storage.googleapis.com/a1aa/image/JDRWjCx7asbeZCiLJ42lReTx4FpAFWT7MGBQLH07zfZp1dQoA.jpg" />
+            <div class="p-4">
+              <h3 class="text-lg font-semibold">Re: Zero Vol. 1-End</h3>
+              <div class="flex items-center mt-2">
+                <span class="text-blue-500 text-xl font-bold">Rp250.000</span>
+              </div>
+              <button class="mt-4 w-full bg-blue-400 text-white py-2 rounded-lg">Add to Cart</button>
+            </div>
+          </div>
+          <div class="swiper-slide bg-white shadow-md rounded-lg overflow-hidden min-w-[250px]">
+            <img alt="Gray sofa" class="w-full h-48 object-cover" src="https://storage.googleapis.com/a1aa/image/JDRWjCx7asbeZCiLJ42lReTx4FpAFWT7MGBQLH07zfZp1dQoA.jpg" />
+            <div class="p-4">
+              <h3 class="text-lg font-semibold">Re: Zero Vol. 1-End</h3>
+              <div class="flex items-center mt-2">
+                <span class="text-blue-500 text-xl font-bold">Rp250.000</span>
+              </div>
+              <button class="mt-4 w-full bg-blue-400 text-white py-2 rounded-lg">Add to Cart</button>
+            </div>
+          </div>
+          <div class="swiper-slide bg-white shadow-md rounded-lg overflow-hidden min-w-[250px]">
+            <img alt="Gray sofa" class="w-full h-48 object-cover" src="https://storage.googleapis.com/a1aa/image/JDRWjCx7asbeZCiLJ42lReTx4FpAFWT7MGBQLH07zfZp1dQoA.jpg" />
+            <div class="p-4">
+              <h3 class="text-lg font-semibold">Re: Zero Vol. 1-End</h3>
+              <div class="flex items-center mt-2">
+                <span class="text-blue-500 text-xl font-bold">Rp250.000</span>
+              </div>
+              <button class="mt-4 w-full bg-blue-400 text-white py-2 rounded-lg">Add to Cart</button>
+            </div>
+          </div>
+          <div class="swiper-slide bg-white shadow-md rounded-lg overflow-hidden min-w-[250px]">
+            <img alt="Gray sofa" class="w-full h-48 object-cover" src="https://storage.googleapis.com/a1aa/image/JDRWjCx7asbeZCiLJ42lReTx4FpAFWT7MGBQLH07zfZp1dQoA.jpg" />
+            <div class="p-4">
+              <h3 class="text-lg font-semibold">Re: Zero Vol. 1-End</h3>
+              <div class="flex items-center mt-2">
+                <span class="text-blue-500 text-xl font-bold">Rp250.000</span>
+              </div>
+              <button class="mt-4 w-full bg-blue-400 text-white py-2 rounded-lg">Add to Cart</button>
+            </div>
+          </div>
+          <div class="swiper-slide bg-white shadow-md rounded-lg overflow-hidden min-w-[250px]">
+            <img alt="Gray sofa" class="w-full h-48 object-cover" src="https://storage.googleapis.com/a1aa/image/JDRWjCx7asbeZCiLJ42lReTx4FpAFWT7MGBQLH07zfZp1dQoA.jpg" />
+            <div class="p-4">
+              <h3 class="text-lg font-semibold">Re: Zero Vol. 1-End</h3>
+              <div class="flex items-center mt-2">
+                <span class="text-blue-500 text-xl font-bold">Rp250.000</span>
+              </div>
+              <button class="mt-4 w-full bg-blue-400 text-white py-2 rounded-lg">Add to Cart</button>
+            </div>
+          </div>
+          <div class="swiper-slide bg-white shadow-md rounded-lg overflow-hidden min-w-[250px]">
+            <img alt="Gray sofa" class="w-full h-48 object-cover" src="https://storage.googleapis.com/a1aa/image/JDRWjCx7asbeZCiLJ42lReTx4FpAFWT7MGBQLH07zfZp1dQoA.jpg" />
+            <div class="p-4">
+              <h3 class="text-lg font-semibold">Re: Zero Vol. 1-End</h3>
+              <div class="flex items-center mt-2">
+                <span class="text-blue-500 text-xl font-bold">Rp250.000</span>
+              </div>
+              <button class="mt-4 w-full bg-blue-400 text-white py-2 rounded-lg">Add to Cart</button>
+            </div>
+          </div>
+          <div class="swiper-slide bg-white shadow-md rounded-lg overflow-hidden min-w-[250px]">
+            <img alt="Gray sofa" class="w-full h-48 object-cover" src="https://storage.googleapis.com/a1aa/image/JDRWjCx7asbeZCiLJ42lReTx4FpAFWT7MGBQLH07zfZp1dQoA.jpg" />
+            <div class="p-4">
+              <h3 class="text-lg font-semibold">Re: Zero Vol. 1-End</h3>
+              <div class="flex items-center mt-2">
+                <span class="text-blue-500 text-xl font-bold">Rp250.000</span>
+              </div>
+              <button class="mt-4 w-full bg-blue-400 text-white py-2 rounded-lg">Add to Cart</button>
+            </div>
+          </div>
+          <div class="swiper-slide bg-white shadow-md rounded-lg overflow-hidden min-w-[250px]">
+            <img alt="Gray sofa" class="w-full h-48 object-cover" src="https://storage.googleapis.com/a1aa/image/JDRWjCx7asbeZCiLJ42lReTx4FpAFWT7MGBQLH07zfZp1dQoA.jpg" />
+            <div class="p-4">
+              <h3 class="text-lg font-semibold">Re: Zero Vol. 1-End</h3>
+              <div class="flex items-center mt-2">
+                <span class="text-blue-500 text-xl font-bold">Rp250.000</span>
+              </div>
+              <button class="mt-4 w-full bg-blue-400 text-white py-2 rounded-lg">Add to Cart</button>
+            </div>
+          </div>
+          <div class="swiper-slide bg-white shadow-md rounded-lg overflow-hidden min-w-[250px]">
+            <img alt="Gray sofa" class="w-full h-48 object-cover" src="https://storage.googleapis.com/a1aa/image/JDRWjCx7asbeZCiLJ42lReTx4FpAFWT7MGBQLH07zfZp1dQoA.jpg" />
+            <div class="p-4">
+              <h3 class="text-lg font-semibold">Re: Zero Vol. 1-End</h3>
+              <div class="flex items-center mt-2">
+                <span class="text-blue-500 text-xl font-bold">Rp250.000</span>
+              </div>
+              <button class="mt-4 w-full bg-blue-400 text-white py-2 rounded-lg">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <!-- Navigasi -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+    
+    <!-- Inisialisasi SwiperJS -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 2,
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          640: { slidesPerView: 2 },
+          768: { slidesPerView: 3 },
+          1024: { slidesPerView: 5 },
+        },
+      });
+    </script>
+    
+   <!-- Discount Section -->
+   <div class="container mx-auto px-4 py-8">
+    <div class="bg-white shadow-md rounded-lg overflow-hidden flex flex-col md:flex-row items-center">
+     <div class="p-8 md:w-1/2">
+      <h2 class="text-4xl font-bold text-blue-500">
+       15% OFF
+      </h2>
+      <p class="text-gray-700 mt-2">
+       ACCENT CHAIRS, BENCHES &amp; OTTOMANS
+      </p>
+      <button class="mt-4 bg-blue-400 text-white py-2 px-4 rounded-lg">
+       Shop Now
+      </button>
+     </div>
+     <div class="md:w-1/2">
+      <img alt="Living room with accent chair" class="w-full h-full object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/cNXUrDcc9YZSD1ZueEWusUdL8eDWCpBXfhDoeSVh8ITkr7gQB.jpg" width="600"/>
+     </div>
+    </div>
+   </div>
+   <!-- Recommended Section -->
+   <div class="container mx-auto px-4 py-8">
+    <h2 class="text-2xl font-bold mb-4">
+     Mungkin kamu suka
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+     <!-- Recommended Product Card -->
+     <div class="bg-white shadow-md rounded-lg overflow-hidden">
+      <img alt="Product image" class="w-full h-48 object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/BRXZmjouNeRtbqfZtfxyedMQvn366TaoOjn8Zx4S05iPr7gQB.jpg" width="300"/>
+      <div class="p-4">
+       <h3 class="text-lg font-semibold">
+        Product Name
+       </h3>
+       <div class="flex items-center mt-2">
+        <span class="text-blue-500 text-xl font-bold">
+         $45.00
+        </span>
+        <span class="text-gray-500 line-through ml-2">
+         $55.00
+        </span>
+       </div>
+       <div class="flex items-center mt-2">
+        <span class="text-yellow-500">
+         <i class="fas fa-star">
+         </i>
+        </span>
+        <span class="text-yellow-500">
+         <i class="fas fa-star">
+         </i>
+        </span>
+        <span class="text-yellow-500">
+         <i class="fas fa-star">
+         </i>
+        </span>
+        <span class="text-yellow-500">
+         <i class="fas fa-star">
+         </i>
+        </span>
+        <span class="text-yellow-500">
+         <i class="fas fa-star">
+         </i>
+        </span>
+        <span class="text-gray-600 ml-2">
+         (150)
+        </span>
+       </div>
+       <button class="mt-4 w-full bg-blue-400 text-white py-2 rounded-lg">
+        Add to Cart
+       </button>
+      </div>
+     </div>
+     <!-- Repeat Recommended Product Card for other products -->
+     <div class="bg-white shadow-md rounded-lg overflow-hidden">
+      <img alt="Product image" class="w-full h-48 object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/BRXZmjouNeRtbqfZtfxyedMQvn366TaoOjn8Zx4S05iPr7gQB.jpg" width="300"/>
+      <div class="p-4">
+       <h3 class="text-lg font-semibold">
+        Product Name
+       </h3>
+       <div class="flex items-center mt-2">
+        <span class="text-blue-500 text-xl font-bold">
+         $45.00
+        </span>
+        <span class="text-gray-500 line-through ml-2">
+         $55.00
+        </span>
+       </div>
+       <div class="flex items-center mt-2">
+        <span class="text-yellow-500">
+         <i class="fas fa-star">
+         </i>
+        </span>
+        <span class="text-yellow-500">
+         <i class="fas fa-star">
+         </i>
+        </span>
+        <span class="text-yellow-500">
+         <i class="fas fa-star">
+         </i>
+        </span>
+        <span class="text-yellow-500">
+         <i class="fas fa-star">
+         </i>
+        </span>
+        <span class="text-yellow-500">
+         <i class="fas fa-star">
+         </i>
+        </span>
+        <span class="text-gray-600 ml-2">
+         (150)
+        </span>
+       </div>
+       <button class="mt-4 w-full bg-blue-400 text-white py-2 rounded-lg">
+        Add to Cart
+       </button>
+      </div>
+     </div>
+     <div class="bg-white shadow-md rounded-lg overflow-hidden">
+      <img alt="Product image" class="w-full h-48 object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/BRXZmjouNeRtbqfZtfxyedMQvn366TaoOjn8Zx4S05iPr7gQB.jpg" width="300"/>
+      <div class="p-4">
+       <h3 class="text-lg font-semibold">
+        Product Name
+       </h3>
+       <div class="flex items-center mt-2">
+        <span class="text-blue-500 text-xl font-bold">
+         $45.00
+        </span>
+        <span class="text-gray-500 line-through ml-2">
+         $55.00
+        </span>
+       </div>
+       <div class="flex items-center mt-2">
+        <span class="text-yellow-500">
+         <i class="fas fa-star">
+         </i>
+        </span>
+        <span class="text-yellow-500">
+         <i class="fas fa-star">
+         </i>
+        </span>
+        <span class="text-yellow-500">
+         <i class="fas fa-star">
+         </i>
+        </span>
+        <span class="text-yellow-500">
+         <i class="fas fa-star">
+         </i>
+        </span>
+        <span class="text-yellow-500">
+         <i class="fas fa-star">
+         </i>
+        </span>
+        <span class="text-gray-600 ml-2">
+         (150)
+        </span>
+       </div>
+       <button class="mt-4 w-full bg-blue-400 text-white py-2 rounded-lg">
+        Add to Cart
+       </button>
+      </div>
+     </div>
+     <div class="bg-white shadow-md rounded-lg overflow-hidden">
+      <img alt="Product image" class="w-full h-48 object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/BRXZmjouNeRtbqfZtfxyedMQvn366TaoOjn8Zx4S05iPr7gQB.jpg" width="300"/>
+      <div class="p-4">
+       <h3 class="text-lg font-semibold">
+        Product Name
+       </h3>
+       <div class="flex items-center mt-2">
+        <span class="text-blue-500 text-xl font-bold">
+         $45.00
+        </span>
+        <span class="text-gray-500 line-through ml-2">
+         $55.00
+        </span>
+       </div>
+       <div class="flex items-center mt-2">
+        <span class="text-yellow-500">
+         <i class="fas fa-star">
+         </i>
+        </span>
+        <span class="text-yellow-500">
+         <i class="fas fa-star">
+         </i>
+        </span>
+        <span class="text-yellow-500">
+         <i class="fas fa-star">
+         </i>
+        </span>
+        <span class="text-yellow-500">
+         <i class="fas fa-star">
+         </i>
+        </span>
+        <span class="text-yellow-500">
+         <i class="fas fa-star">
+         </i>
+        </span>
+        <span class="text-gray-600 ml-2">
+         (150)
+        </span>
+       </div>
+       <button class="mt-4 w-full bg-blue-400 text-white py-2 rounded-lg">
+        Add to Cart
+       </button>
+      </div>
+     </div>
+     <div class="bg-white shadow-md rounded-lg overflow-hidden">
+      <img alt="Product image" class="w-full h-48 object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/BRXZmjouNeRtbqfZtfxyedMQvn366TaoOjn8Zx4S05iPr7gQB.jpg" width="300"/>
+      <div class="p-4">
+       <h3 class="text-lg font-semibold">
+        Product Name
+       </h3>
+       <div class="flex items-center mt-2">
+        <span class="text-blue-500 text-xl font-bold">
+         $45.00
+        </span>
+        <span class="text-gray-500 line-through ml-2">
+         $55.00
+        </span>
+       </div>
+       <div class="flex items-center mt-2">
+        <span class="text-yellow-500">
+         <i class="fas fa-star">
+         </i>
+        </span>
+        <span class="text-yellow-500">
+         <i class="fas fa-star">
+         </i>
+        </span>
+        <span class="text-yellow-500">
+         <i class="fas fa-star">
+         </i>
+        </span>
+        <span class="text-yellow-500">
+         <i class="fas fa-star">
+         </i>
+        </span>
+        <span class="text-yellow-500">
+         <i class="fas fa-star">
+         </i>
+        </span>
+        <span class="text-gray-600 ml-2">
+         (150)
+        </span>
+       </div>
+       <button class="mt-4 w-full bg-blue-400 text-white py-2 rounded-lg">
+        Add to Cart
+       </button>
+      </div>
+     </div>
+    </div>
+   </div>
+
+
+<!-- Pemisah -->
+<footer class="bg-gray-200 mt-8 p-4">
+   <div class="container mx-auto text-center">
+    <h2 class="text-2xl font-bold text-blue-300 mb-2">
+     Mynime
+    </h2>
+    
+    <div class="flex justify-center space-x-4 mb-4">
+     <a class="text-gray-600" href="#">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a class="text-gray-600" href="#">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+     <a class="text-gray-600" href="#">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+     <a class="text-gray-600" href="#">
+      <i class="fab fa-linkedin-in">
+      </i>
+     </a>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 text-gray-600">
+     <div>
+      <h3 class="font-semibold mb-2">
+       SOLUTIONS
+      </h3>
+      <ul>
+       <li>
+        <a href="#">
+         Marketing
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         Analytics
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         Commerce
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         Insights
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div>
+      <h3 class="font-semibold mb-2">
+       SUPPORT
+      </h3>
+      <ul>
+       <li>
+        <a href="#">
+         Pricing
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         Documentation
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         Guides
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         API Status
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div>
+      <h3 class="font-semibold mb-2">
+       COMPANY
+      </h3>
+      <ul>
+       <li>
+        <a href="#">
+         About
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         Blog
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         Jobs
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         Press
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div>
+      <h3 class="font-semibold mb-2">
+       LEGAL
+      </h3>
+      <ul>
+       <li>
+        <a href="#">
+         Claim
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         Privacy
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         Policy
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         Terms
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </footer>
+  
+</body>
+</html>

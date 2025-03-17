@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 </head>
        <body class="font-roboto">
        </head>
@@ -93,8 +94,8 @@
                         <img src="/public/img/Nakano.jpg" class="w-full h-full object-cover rounded-lg">
                     </div>
                 </div>
-                <!-- Navigasi -->
-                <div class="swiper-pagination"></div>
+                Navigasi
+                <div class="swiper-pagination-1"></div>
             </div>
         </div>
     </div>
@@ -117,69 +118,78 @@
 </script>
 <!-- Today event -->
 <!-- Tambahkan link CSS SwiperJS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
-<!-- Container untuk Swiper -->
-<div class="container flex justify-between mx-auto px-4 py-8">
+<div class="bg-gray-100 max-w-5xl mx-auto py-10 px-4">
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
       
       <!-- Slide 1 -->
-      <div class="swiper-slide bg-white shadow-md rounded-lg overflow-hidden flex flex-col md:flex-row items-center">
-        <div class="p-8 md:w-1/2">
+      <div class="swiper-slide flex flex-col md:flex-row items-center bg-gradient-to-r from-gray-50 to-white rounded-xl shadow-lg transition-transform duration-700 scale-100 hover:scale-105">
+        <div class="md:w-1/2">
+          <img                 src="/public/images/products/product10.jpg"
+
+               alt="Living room with accent chair" 
+               class="w-full h-full object-cover rounded-l-xl">
+        </div>
+        <div class="p-8 md:w-1/2 text-left">
           <h2 class="text-4xl font-bold text-red-500">15% OFF</h2>
           <p class="text-gray-700 mt-2">ACCENT CHAIRS, BENCHES & OTTOMANS</p>
-          <button class="mt-4 bg-red-500 text-white py-2 px-4 rounded-lg">Shop Now</button>
-        </div>
-        <div class="md:w-1/2">
-          <img alt="Living room with accent chair" class="w-full h-full object-cover" height="400" 
-          src="https://storage.googleapis.com/a1aa/image/cNXUrDcc9YZSD1ZueEWusUdL8eDWCpBXfhDoeSVh8ITkr7gQB.jpg" width="600"/>
+          <button class="mt-4 bg-red-500 text-white py-2 px-4 rounded-lg hover:bg-red-600 transition-all">Shop Now</button>
         </div>
       </div>
 
       <!-- Slide 2 -->
-      <div class="swiper-slide bg-white shadow-md rounded-lg overflow-hidden flex flex-col md:flex-row items-center">
-        <div class="p-8 md:w-1/2">
+      <div class="swiper-slide flex flex-col md:flex-row items-center bg-gradient-to-r from-gray-50 to-white rounded-xl shadow-lg transition-transform duration-700 scale-100 hover:scale-105">
+        <div class="md:w-1/2">
+          <img                src="/public/images/prod"
+
+               alt="Modern Sofa" 
+               class="w-full h-full object-cover rounded-l-xl">
+        </div>
+        <div class="p-8 md:w-1/2 text-left">
           <h2 class="text-4xl font-bold text-blue-500">20% OFF</h2>
           <p class="text-gray-700 mt-2">MODERN SOFAS & LOUNGES</p>
-          <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded-lg">Shop Now</button>
-        </div>
-        <div class="md:w-1/2">
-          <img alt="Modern Sofa" class="w-full h-full object-cover" height="400" 
-          src="https://storage.googleapis.com/a1aa/image/sample-sofa.jpg" width="600"/>
+          <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition-all">Shop Now</button>
         </div>
       </div>
 
       <!-- Slide 3 -->
-      <div class="swiper-slide bg-white shadow-md rounded-lg overflow-hidden flex flex-col md:flex-row items-center">
-        <div class="p-8 md:w-1/2">
+      <div class="swiper-slide flex flex-col md:flex-row items-center bg-gradient-to-r from-gray-50 to-white rounded-xl shadow-lg transition-transform duration-700 scale-100 hover:scale-105">
+        <div class="md:w-1/2">
+          <img                 src="/public/img/kaos.jpg"
+
+               alt="Luxury Bed" 
+               class="w-full h-full object-cover rounded-l-xl">
+        </div>
+        <div class="p-8 md:w-1/2 text-left">
           <h2 class="text-4xl font-bold text-green-500">30% OFF</h2>
           <p class="text-gray-700 mt-2">LUXURY BEDS & BED FRAMES</p>
-          <button class="mt-4 bg-green-500 text-white py-2 px-4 rounded-lg">Shop Now</button>
-        </div>
-        <div class="md:w-1/2">
-          <img alt="Luxury Bed" class="w-full h-full object-cover" height="400" 
-          src="https://storage.googleapis.com/a1aa/image/sample-bed.jpg" width="600"/>
+          <button class="mt-4 bg-green-500 text-white py-2 px-4 rounded-lg hover:bg-green-600 transition-all">Shop Now</button>
         </div>
       </div>
 
     </div>
 
     <!-- Navigasi -->
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next text-red-500 hover:scale-125 transition-transform"></div>
+    <div class="swiper-button-prev text-red-500 hover:scale-125 transition-transform"></div>
 
     <!-- Pagination -->
     <div class="swiper-pagination"></div>
   </div>
 </div>
 
-<!-- Tambahkan script SwiperJS -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- Script SwiperJS -->
 <script>
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
-    spaceBetween: 10,
+    spaceBetween: 20,
+    effect: "slide",
+    speed: 800,
+    loop: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
@@ -190,8 +200,6 @@
     },
   });
 </script>
-
- <!-- Swiper -->
   
   <!-- Shop by Category Section -->
  
@@ -252,56 +260,58 @@
         </main>
         <!-- Pemisah aja -->
         
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-             <div class="relative">
-              <img alt="Bedroom category image" class="w-full h-full object-cover" height="400" src="/public/img/Actionfigure.jpg" width="600"/>
-              <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-               <p class="text-white text-lg font-semibold">
-               Action figure
-               </p>
-              </div>
-             </div>
-             <div class="relative">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 ">
+              <a href=""> <div class="relative ">
+                <img alt="Bedroom category image" class="block w-full h-full object-cover transform transition duration-300 ease-in-out hover:scale-110 " height="400" src="/public/img/Actionfigure.jpg" width="600"/>
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center ">
+                  
+                 <p class="text-white text-lg font-semibold">
+                 Action figure
+                 </p>
+                </div>
+               </div></a>
+            <a href=""> <div class="relative">
               <img alt="Sofa category image" class="w-full h-full object-cover" height="400" src="/public/img/manga.jpg" width="600"/>
               <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
                <p class="text-white text-lg font-semibold">
                 Manga
                </p>
               </div>
-             </div>
-             <div class="relative">
+             </div></a>
+            <a href="">  <div class="relative">
               <img alt="Office category image" class="w-full h-full object-cover" height="400" src="/public/img/nendoroid.jpg" width="600"/>
               <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
                <p class="text-white text-lg font-semibold">
                 Nendoroid
                </p>
               </div>
-             </div>
-             <div class="relative">
-              <img alt="Outdoor category image" class="w-full h-full object-cover" height="400" src="/public/img/Ganci.jpg" width="600"/>
-              <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-               <p class="text-white text-lg font-semibold">
-                Gantungan kunci
-               </p>
-              </div>
-             </div>
-             <div class="relative">
-              <img alt="Mattress category image" class="w-full h-full object-cover" height="400" src="/public/img/kaos.jpg" width="600"/>
-              <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-               <p class="text-white text-lg font-semibold">
-                T-shirt 
-               </p>
-              </div>
-             </div>
-             <div class="relative">
-              <img alt="Dinings category image" class="w-full h-full object-cover" height="400" src="/public/img/cosplay.jpg" width="600"/>
-              <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-               <p class="text-white text-lg font-semibold">
-                Perlengkapan cosplay
-               </p>
-              </div>
-             </div>
+             </div></a>
+           <a href="">  <div class="relative">
+            <img alt="Outdoor category image" class="w-full h-full object-cover" height="400" src="/public/img/Ganci.jpg" width="600"/>
+            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+             <p class="text-white text-lg font-semibold">
+              Gantungan kunci
+             </p>
             </div>
+           </div></a>
+           <a href="">  <div class="relative">
+            <img alt="Mattress category image" class="w-full h-full object-cover" height="400" src="/public/img/kaos.jpg" width="600"/>
+            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+             <p class="text-white text-lg font-semibold">
+              T-shirt 
+             </p>
+            </div>
+           </div></a>
+           <a href="">  <div class="relative">
+            <img alt="Dinings category image" class="w-full h-full object-cover" height="400" src="/public/img/cosplay.jpg" width="600"/>
+            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+             <p class="text-white text-lg font-semibold">
+              Perlengkapan cosplay
+             </p>
+            </div>
+           </div>
+          </div></a>
+           
            </div>
            <!-- Top New Arrival -->
            <div class="container mx-auto py-8">

@@ -2,227 +2,92 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>RAF CART</title>
-    <link href="./css/output.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./css/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"/>
 </head>
-       <body class="font-roboto">
-         <!-- Header -->
-  <header class="bg-white shadow">
-    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-     <div class="flex items-center space-x-4">
-      <h1 class="text-2xl font-bold text-red-600">
-       RAF CART
-      </h1>
-      <div class="relative">
-       <input class="border rounded-full py-2 px-4 pl-10 w-64" placeholder="search" type="text"/>
-       <i class="fas fa-search absolute left-3 top-3 text-gray-400">
-       </i>
-      </div>
-     </div>
-     <div class="flex items-center space-x-4">
-      <a class="text-gray-600" href="#">
-       <i class="fas fa-heart">
-       </i>
-       Wish List
-      </a>
-      <a class="text-gray-600" href="#">
-       <i class="fas fa-shopping-cart">
-       </i>
-       Cart
-      </a>
-      <a class="text-gray-600" href="#">
-       <i class="fas fa-user">
-       </i>
-       Account
-      </a>
-     </div>
-    </div>
-   </header>
-           </div>
-          </div>
-         </div>
-         <nav class="bg-gray-800">
-          <div class="container mx-auto flex justify-between items-center py-2 px-6">
-           <div class="flex items-center space-x-4">
-            <button class="bg-red-500 text-white px-4 py-2 flex items-center">
-             <i class="fas fa-bars mr-2">
-             </i>
-             All Categories
-            </button>
-            <a class="text-white" href="#">
-             Home
+<body class="font-roboto">
+    
+    <!-- Navbar -->
+    <header class="bg-white shadow-md py-4 px-6 flex space-x-10 justify-center">
+        <div class="text-2xl font-bold text-blue-400">Mynime</div>
+        
+        <div class="flex items-center w-1/2">
+            <input type="text" placeholder="Cari apa hari ini?" class="w-full px-4 py-2 border rounded-l-md focus:outline-none">
+            <button class="bg-blue-400 px-4 py-2 text-white rounded-r-md">🔍</button>
+        </div>
+        
+        <!-- Icons Menu -->
+        <nav class="flex items-center space-x-6">
+            <a href="#" class="text-blue-400 hover:text-gray-300">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5..."/>
+                </svg>          
             </a>
-            <a class="text-white" href="#">
-             Shop
+            <a href="#" class="text-blue-400 hover:text-gray-300">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0..."/>
+                </svg>          
             </a>
-            <a class="text-white" href="#">
-             About Us
+            <a href="#" class="text-blue-400 hover:text-gray-300">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5..."/>
+                </svg>
             </a>
-            <a class="text-white" href="#">
-             Contact Us
-            </a>
-           </div>
-           <a class="text-white" href="#">
-            Login/Register
-           </a>
-          </div>
-         </nav>
-        </header>
-        <!-- pemisah -->
+        </nav>
+    </header>
 
-<!-- Main Content -->
-<div class="container mx-auto px-4 py-8">
-    <div class="flex space-x-8">
-     <!-- Sidebar -->
-     <div class="w-1/4 bg-white p-4 rounded shadow">
-      <div class="flex items-center space-x-4 mb-4">
-       <img alt="User profile picture" class="rounded-full" height="50" src="https://storage.googleapis.com/a1aa/image/KlrgfffJTNZfKQPoivQAyY8pSn4HuKK4fz87xFfhwHPhi4DCF.jpg" width="50"/>
-       <div>
-        <p class="text-gray-700">
-         Hello,
-        </p>
-        <p class="font-bold">
-         Russell Ahmed
-        </p>
-       </div>
-      </div>
-      <div class="mb-4">
-       <h2 class="text-red-600 font-bold mb-2">
-        Manage Account
-       </h2>
-       <ul class="space-y-2">
-        <li>
-         <a class="text-red-600" href="#">
-          Profile Information
-         </a>
-        </li>
-        <li>
-         <a class="text-gray-700" href="#">
-          Manage Address
-         </a>
-        </li>
-        <li>
-         <a class="text-gray-700" href="#">
-          Change Password
-         </a>
-        </li>
-       </ul>
-      </div>
-      <div class="mb-4">
-       <h2 class="text-gray-700 font-bold mb-2">
-        My Order History
-       </h2>
-       <ul class="space-y-2">
-        <li>
-         <a class="text-gray-700" href="#">
-          My Returns
-         </a>
-        </li>
-        <li>
-         <a class="text-gray-700" href="#">
-          My Cancellations
-         </a>
-        </li>
-        <li>
-         <a class="text-gray-700" href="#">
-          My Reviews
-         </a>
-        </li>
-       </ul>
-      </div>
-      <div class="mb-4">
-       <h2 class="text-gray-700 font-bold mb-2">
-        Payment Methods
-       </h2>
-       <ul class="space-y-2">
-        <li>
-         <a class="text-gray-700" href="#">
-          Voucher
-         </a>
-        </li>
-       </ul>
-      </div>
-      <div class="mb-4">
-       <h2 class="text-gray-700 font-bold mb-2">
-        My Wishlist
-       </h2>
-      </div>
-      <div>
-       <h2 class="text-gray-700 font-bold mb-2">
-        Logout
-       </h2>
-      </div>
-     </div>
-     <!-- Main Panel -->
-     <div class="w-3/4">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-       <div class="bg-white p-4 rounded shadow">
-        <div class="flex justify-between items-center mb-2">
-         <h3 class="font-bold text-gray-700">
-          Personal Profile
-         </h3>
-         <a class="text-red-600" href="#">
-          Edit
-         </a>
+    <!-- Main Content -->
+    <div class="container mx-auto px-4 py-8">
+        <div class="flex space-x-8">
+            
+            <!-- Sidebar -->
+            <aside class="w-1/4 bg-white p-4 rounded shadow">
+                <div class="flex items-center space-x-4 mb-4">
+                    <img src="https://storage.googleapis.com/a1aa/image/KlrgfffJTNZfKQPoivQAyY8pSn4HuKK4fz87xFfhwHPhi4DCF.jpg" alt="User profile" class="rounded-full" width="50" height="50"/>
+                    <div>
+                        <p class="text-gray-700">Hello,</p>
+                        <p class="font-bold">Russell Ahmed</p>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <h2 class="text-blue-600 font-bold mb-2">Manage Account</h2>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-700 hover:text-blue-400">Profile Information</a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-blue-400">Manage Address</a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-blue-400">Change Password</a></li>
+                    </ul>
+                </div>
+            </aside>
+
+            <!-- Main Panel -->
+            <section class="w-3/4">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="bg-white p-4 rounded shadow">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="font-bold text-gray-700">Personal Profile</h3>
+                            <a href="#" class="text-red-600">Edit</a>
+                        </div>
+                        <p class="text-gray-700">Russell Ahmed</p>
+                        <p class="text-gray-700">example@mail.com</p>
+                        <p class="text-gray-700">(123) 456-789</p>
+                    </div>
+                    <div class="bg-white p-4 rounded shadow">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="font-bold text-gray-700">Billing Address</h3>
+                            <a href="#" class="text-red-600">Edit</a>
+                        </div>
+                        <p class="text-gray-700">Russell Ahmed</p>
+                        <p class="text-gray-700">3891 Ranchview Dr.</p>
+                        <p class="text-gray-700">Richardson, California</p>
+                        <p class="text-gray-700">(123) 456-789</p>
+                    </div>
+                </div>
+            </section>
         </div>
-        <p class="text-gray-700">
-         Russell Ahmed
-        </p>
-        <p class="text-gray-700">
-         example@mail.com
-        </p>
-        <p class="text-gray-700">
-         (123) 456-789
-        </p>
-       </div>
-       <div class="bg-white p-4 rounded shadow">
-        <div class="flex justify-between items-center mb-2">
-         <h3 class="font-bold text-gray-700">
-          Shipping Address
-         </h3>
-         <a class="text-red-600" href="#">
-          Edit
-         </a>
-        </div>
-        <p class="text-gray-700">
-         Russell Ahmed
-        </p>
-        <p class="text-gray-700">
-         3891 Ranchview Dr.
-        </p>
-        <p class="text-gray-700">
-         Richardson, California
-        </p>
-        <p class="text-gray-700">
-         (123) 456-789
-        </p>
-       </div>
-       <div class="bg-white p-4 rounded shadow">
-        <div class="flex justify-between items-center mb-2">
-         <h3 class="font-bold text-gray-700">
-          Billing Address
-         </h3>
-         <a class="text-red-600" href="#">
-          Edit
-         </a>
-        </div>
-        <p class="text-gray-700">
-         Russell Ahmed
-        </p>
-        <p class="text-gray-700">
-         3891 Ranchview Dr.
-        </p>
-        <p class="text-gray-700">
-         Richardson, California
-        </p>
-        <p class="text-gray-700">
-         (123) 456-789
-        </p>
-       </div>
-      </div>
-     </div>
     </div>
-   </div>
+
+</body>
+</html>
